@@ -21,9 +21,3 @@ ruby::version::alias:
 
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 51
-
-# https://github.com/boxen/puppet-heroku
-heroku::plugin { 'accounts':
-  source => 'ddollar/heroku-accounts'
-}
-
