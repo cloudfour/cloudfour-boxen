@@ -82,7 +82,6 @@ node default {
   # include nvm
 
   include onepassword
-  include slack
   include sublime_text
   include iterm2
   include dropbox

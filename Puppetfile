@@ -68,7 +68,6 @@ github "wget", "1.0.1"
 # github "nvm", "1.0.0"
 
 github "onepassword", "1.1.2"
-github "slack", "1.0.6"
 github "sublime_text", "1.0.1"
 github "iterm2", "1.1.1"
 github "dropbox", "1.2.0"
