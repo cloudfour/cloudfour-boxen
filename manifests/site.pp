@@ -68,20 +68,29 @@ node default {
   include nodejs::v0_8
   include nodejs::v0_10
 
-  include java::v1_5_0
-  include wget::v1_0_1
-  include nvm::v1_0_0
+  # npm
+  nodejs::module { 'grunt':
+    node_version => '*'
+  }
 
-  include onepassword::v1_1_2
-  include slack::v1_0_6
-  include sublime_text::v1_0_1
-  include iterm2::v1_1_1
-  include dropbox::v1_2_0
-  include heroku::v2_2_1
-  include harvest::v1_0_2
+  nodejs::module { 'gulp':
+    node_version => '*'
+  }
 
-  include chrome::v1_1_2
-  include firefox::v1_2_1
+  include java
+  include wget
+  include nvm
+
+  include onepassword
+  include slack
+  include sublime_text
+  include iterm2
+  include dropbox
+  include heroku
+  include harvest
+
+  include chrome
+  include firefox
 
 
   # default ruby versions
@@ -90,6 +99,18 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
+
+  ruby_gem { 'SASS for all rubies':
+    gem          => 'sass',
+    version      => '~> 3.1',
+    ruby_version => '*',
+  }
+
+  ruby_gem { 'Compass for all rubies':
+    gem          => 'compass',
+    version      => '~> 0.12',
+    ruby_version => '*',
+  }
 
   # common, useful packages
   package {
