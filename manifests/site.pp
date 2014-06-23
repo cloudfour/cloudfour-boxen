@@ -68,6 +68,22 @@ node default {
   include nodejs::v0_8
   include nodejs::v0_10
 
+  include java::v1_5_0
+  include wget::v1_0_1
+  include nvm::v1_0_0
+
+  include onepassword::v1_1_2
+  include slack::v1_0_6
+  include sublime_text::v1_0_1
+  include iterm2::v1_1_1
+  include dropbox::v1_2_0
+  include heroku::v2_2_1
+  include harvest::v1_0_2
+
+  include chrome::v1_1_2
+  include firefox::v1_2_1
+
+
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
