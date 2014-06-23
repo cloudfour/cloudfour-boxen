@@ -69,13 +69,13 @@ node default {
   include nodejs::v0_10
 
   # npm
-  nodejs::module { 'grunt':
-    node_version => '*'
-  }
+  nodejs::module { 'grunt for v0.6': node_version => 'v0.6' }
+  nodejs::module { 'grunt for v0.8': node_version => 'v0.8' }
+  nodejs::module { 'grunt for v0.10': node_version => 'v0.10' }
 
-  nodejs::module { 'gulp':
-    node_version => '*'
-  }
+  nodejs::module { 'gulp for v0.6': node_version => 'v0.6' }
+  nodejs::module { 'gulp for v0.8': node_version => 'v0.8' }
+  nodejs::module { 'gulp for v0.10': node_version => 'v0.10' }
 
   include java
   include wget
