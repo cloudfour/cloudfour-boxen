@@ -65,7 +65,7 @@ github "xquartz",     "1.1.1"
 
 github "java", "1.5.0"
 github "wget", "1.0.1"
-github "nvm", "1.0.0"
+# github "nvm", "1.0.0"
 
 github "onepassword", "1.1.2"
 github "slack", "1.0.6"

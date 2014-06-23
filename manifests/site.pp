@@ -69,17 +69,17 @@ node default {
   include nodejs::v0_10
 
   # npm
-  nodejs::module { 'grunt for v0.6': node_version => 'v0.6' }
-  nodejs::module { 'grunt for v0.8': node_version => 'v0.8' }
-  nodejs::module { 'grunt for v0.10': node_version => 'v0.10' }
+  nodejs::module { 'grunt for 0.6': module => 'grunt', node_version => 'v0.6' }
+  nodejs::module { 'grunt for 0.8': module => 'grunt', node_version => 'v0.8' }
+  nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
 
-  nodejs::module { 'gulp for v0.6': node_version => 'v0.6' }
-  nodejs::module { 'gulp for v0.8': node_version => 'v0.8' }
-  nodejs::module { 'gulp for v0.10': node_version => 'v0.10' }
+  nodejs::module { 'gulp for 0.6': module => 'gulp', node_version => 'v0.6' }
+  nodejs::module { 'gulp for 0.8': module => 'gulp', node_version => 'v0.8' }
+  nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
 
   include java
   include wget
-  include nvm
+  # include nvm
 
   include onepassword
   include slack
