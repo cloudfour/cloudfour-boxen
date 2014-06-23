@@ -72,7 +72,7 @@ github "slack", "1.0.6"
 github "sublime_text", "1.0.1"
 github "iterm2", "1.1.1"
 github "dropbox", "1.2.0"
-github "heroku", "2.2.1"
+github "heroku", "2.1.1"
 github "harvest", "1.0.2"
 
 github "chrome", "1.1.2"
