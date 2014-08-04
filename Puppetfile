@@ -77,5 +77,7 @@ github "harvest", "1.0.2"
 github "chrome", "1.1.2"
 github "firefox", "1.2.1"
 
+github "atom", "1.0.0"
+
 # Requirements for future project-specific setups.
 # github "postgresql", "3.0.1"
