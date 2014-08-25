@@ -73,6 +73,9 @@ node default {
   nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
   nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
 
+  # set the global nodejs version
+  class { 'nodejs::global': version => 'v0.10.26' }
+
   include java
   include wget
   # include nvm
