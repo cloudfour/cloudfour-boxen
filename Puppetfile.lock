@@ -153,7 +153,7 @@ DEPENDENCIES
   boxen (= 3.6.1)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
-  dropbox (= 1.2.0)
+  dropbox (>= 0)
   firefox (= 1.2.1)
   foreman (= 1.2.0)
   gcc (= 2.0.101)
