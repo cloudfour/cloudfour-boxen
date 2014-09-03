@@ -40,7 +40,8 @@ github "module-data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 
 github "dnsmasq",     "1.0.1"
 github "foreman",     "1.2.0"
-github "gcc",         "2.0.101"
+github "gcc"
+#,         "2.0.101"
 github "git",         "2.4.0"
 # github "go",          "1.1.0"
 github "homebrew",    "1.9.3"
@@ -63,22 +64,21 @@ github "xquartz",     "1.1.1"
 
 # Version numbers refer to (exact) tags in the repo
 
-github "java", "1.5.0"
+github "java", "1.6.0"
 github "wget", "1.0.1"
 # github "nvm", "1.0.0"
 
-github "onepassword", "1.1.2"
+github "onepassword"
 github "sublime_text", "1.0.1"
 github "iterm2", "1.1.1"
 github "dropbox"
- #, "1.2.0"
-github "heroku", "2.1.1"
+github "heroku"
 github "harvest", "1.0.2"
 
-github "chrome", "1.1.2"
-github "firefox", "1.2.1"
+github "chrome"
+github "firefox"
 
-github "atom", "1.0.0"
+github "atom"
 
 # Requirements for future project-specific setups.
 # github "postgresql", "3.0.1"
