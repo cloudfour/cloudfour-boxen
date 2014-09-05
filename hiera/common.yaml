@@ -21,3 +21,5 @@ ruby::version::alias:
 
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 51
+
+nodejs::global::version: v0.10.26
