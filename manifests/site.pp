@@ -68,55 +68,12 @@ node default {
   include nodejs::v0_8
   include nodejs::v0_10
 
-  # npm
-  nodejs::module { 'grunt for 0.8': module => 'grunt', node_version => 'v0.8' }
-  nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
-  nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
-
-  # set the global nodejs version
-  # moved to hiera/common.yaml
-  # class { 'nodejs::global': version => 'v0.10.26' }
-
-  include java
-  include wget
-  # include nvm
-
-  include harvest
-  include onepassword
-  include sublime_text
-  include iterm2::stable
-  include dropbox
-  include heroku
-  
-  # https://github.com/boxen/puppet-heroku
-  heroku::plugin { 'accounts':
-    source => 'ddollar/heroku-accounts'
-  }
-
-  include chrome
-  include firefox
-
-
-  include atom
-
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
-
-  ruby_gem { 'SASS for all rubies':
-    gem          => 'sass',
-    version      => '~> 3.1',
-    ruby_version => '*',
-  }
-
-  ruby_gem { 'Compass for all rubies':
-    gem          => 'compass',
-    version      => '~> 0.12',
-    ruby_version => '*',
-  }
 
   # common, useful packages
   package {
@@ -131,4 +88,6 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include cloudfour
 }
