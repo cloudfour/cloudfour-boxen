@@ -35,4 +35,6 @@ class cloudfour {
     version      => '~> 0.12',
     ruby_version => '*',
   }
+
+  class { 'nodejs::global': version => 'v0.10' }
 }

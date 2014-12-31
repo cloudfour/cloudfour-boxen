@@ -19,4 +19,4 @@ ruby::rbenv_plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p353
 
-nodejs::global::version: v0.10.26
+# nodejs::global::version: v0.10
