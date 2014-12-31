@@ -62,16 +62,16 @@ github "xquartz",     "1.2.1"
 
 # Version numbers refer to (exact) tags in the repo
 
-github "java", "1.6.0"
+github "java", "1.8.0"
 github "wget", "1.0.1"
 # github "nvm", "1.0.0"
 
 github "onepassword"
-github "sublime_text", "1.0.1"
-github "iterm2", "1.1.1"
+github "sublime_text"
+github "iterm2"
 github "dropbox"
 github "heroku"
-github "harvest", "1.0.2"
+github "harvest"
 
 github "chrome"
 github "firefox"
