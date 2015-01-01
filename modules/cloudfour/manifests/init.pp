@@ -14,6 +14,7 @@ class cloudfour {
   include iterm2::stable
   include dropbox
   include heroku
+  include virtualbox
 
   # https://github.com/boxen/puppet-heroku
   heroku::plugin { 'accounts':

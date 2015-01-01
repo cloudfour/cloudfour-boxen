@@ -64,6 +64,7 @@ github "xquartz",     "1.2.1"
 
 github "java", "1.8.0"
 github "wget", "1.0.1"
+github "virtualbox", "1.0.13"
 # github "nvm", "1.0.0"
 
 github "onepassword"
