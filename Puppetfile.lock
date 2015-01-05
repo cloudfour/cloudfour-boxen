@@ -134,11 +134,6 @@ GITHUBTARBALL
     wget (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
-  specs:
-    xquartz (1.2.1)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -185,4 +180,3 @@ DEPENDENCIES
   sudo (= 1.0.0)
   wget (= 1.0.1)
   xquartz (= 1.2.1)
-
