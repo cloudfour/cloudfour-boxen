@@ -3,6 +3,7 @@ class cloudfour {
   nodejs::module { 'grunt for 0.8': module => 'grunt', node_version => 'v0.8' }
   nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
   nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
+  nodejs::module { 'yeoman for 0.10': module => 'yo', node_version => 'v0.10' }
 
   include java
   include wget
@@ -43,6 +44,8 @@ class cloudfour {
   # See https://github.com/cloudfour/cloudfour-boxen/issues/9
   class { 'ruby::global': version => '2.1.0' }
 
+  # Symlink to boxen script from Applications dir for
+  # those who like to double-click on things
   file {
     '/Applications/boxen':
       ensure => 'link',
