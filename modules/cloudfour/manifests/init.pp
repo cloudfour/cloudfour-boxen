@@ -43,4 +43,9 @@ class cloudfour {
   # See https://github.com/cloudfour/cloudfour-boxen/issues/9
   class { 'ruby::global': version => '2.1.0' }
 
+  file {
+    '/Applications/boxen':
+      ensure => 'link',
+      target => '/opt/boxen/repo/script/boxen'
+  }
 }
