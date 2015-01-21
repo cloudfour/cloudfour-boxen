@@ -1,3 +1,3 @@
 class people::megnotarte {
-  notify { 'HI, Megan! How are things?': }
+  notice('HI, Megan! How are things?')
 }

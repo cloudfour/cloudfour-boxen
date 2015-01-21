@@ -1,3 +1,3 @@
 class people::tylersticka {
-  notify { 'Hi, Tyler! Happy designing...': }
+  notice('Hi, Tyler! Happy designing...')
 }

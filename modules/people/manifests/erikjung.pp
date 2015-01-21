@@ -1,3 +1,3 @@
 class people::erikjung {
-  notify { 'Hullo, Erik, thanks for making coffee!':}
+  notice('Hullo, Erik, thanks for making coffee!')
 }

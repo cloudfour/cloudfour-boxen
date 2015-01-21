@@ -1,3 +1,3 @@
 class people::lharding {
-  notify { 'Hiya, Leander': }
+  notice('Hiya, Leander')
 }
