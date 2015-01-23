@@ -34,14 +34,8 @@ class cloudfour {
   include atom
 
   # dev
-  include heroku
+  #include heroku
   include virtualbox
-
-  # https://github.com/boxen/puppet-heroku
-  # goes with heroku
-  heroku::plugin { 'accounts':
-    source => 'ddollar/heroku-accounts'
-  }
 
   # Everyone gets Sass
   ruby_gem { 'SASS for all rubies':
