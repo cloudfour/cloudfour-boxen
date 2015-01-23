@@ -7,12 +7,9 @@ class cloudfour {
 
   include java
   include wget
-  # include nvm
 
   include harvest
   include onepassword
-  include sublime_text
-  include iterm2::stable
   include dropbox
   include heroku
   include virtualbox
@@ -24,7 +21,6 @@ class cloudfour {
 
   include chrome
   include firefox
-  include atom
 
   ruby_gem { 'SASS for all rubies':
     gem          => 'sass',
