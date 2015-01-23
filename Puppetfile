@@ -80,5 +80,7 @@ github "firefox"
 
 github "atom"
 
+github "imageoptim"
+
 # Requirements for future project-specific setups.
 # github "postgresql", "3.0.1"
