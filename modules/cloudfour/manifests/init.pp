@@ -1,4 +1,7 @@
 class cloudfour {
+  # The goal of this module is to set everyone up to be
+  # equally able to run our web projects locally
+
   # npm
   nodejs::module { 'grunt for 0.8': module => 'grunt', node_version => 'v0.8' }
   nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
