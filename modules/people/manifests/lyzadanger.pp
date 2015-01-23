@@ -1,7 +1,7 @@
 class people::lyzadanger {
-  include atom
-  include iterm2
-  
+  include iterm2::dev
+
   include mamppro
+  include cloudfour_potions::atom
   notice("Hi, future Lyza, from past Lyza")
 }
