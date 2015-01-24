@@ -11,6 +11,7 @@ class people::template_for_people_modules {
   ## Uncomment for our own "potions"
   # include cloudfour_potions::atom
   # include cloudfour_potions::sublime_text
+  # include cloudfour_potions::sublime_text2
 
   ## Uncomment for our own modules
   #
