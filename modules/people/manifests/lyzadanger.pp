@@ -1,4 +1,5 @@
 class people::lyzadanger {
+  include teams::dev
   include iterm2::dev
 
   include mamppro
