@@ -60,8 +60,12 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+# Stuff above here is mostly coming to us from upstream.
+# Add any custom modules below and they will be available
+# for everyone
 
 # Version numbers refer to (exact) tags in the repo
+# for the puppet module
 
 github "java", "1.8.0"
 github "wget", "1.0.1"
@@ -79,6 +83,8 @@ github "chrome"
 github "firefox"
 
 github "atom"
+
+github "imageoptim"
 
 # Requirements for future project-specific setups.
 # github "postgresql", "3.0.1"
