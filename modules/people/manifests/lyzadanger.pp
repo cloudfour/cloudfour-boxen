@@ -5,4 +5,8 @@ class people::lyzadanger {
   include mamppro
   include cloudfour_potions::atom
   notice("Hi, future Lyza, from past Lyza")
+
+  package {
+    ['mongodb']:
+  }
 }
