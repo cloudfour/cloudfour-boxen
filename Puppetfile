@@ -78,6 +78,7 @@ github "iterm2"
 github "dropbox"
 github "heroku"
 github "harvest"
+github "skype"
 
 github "chrome"
 github "firefox"

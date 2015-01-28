@@ -22,6 +22,7 @@ class cloudfour {
   include onepassword
 
   include harvest
+  include skype
 
   # everyone uses browsers
   # this is just to get 'em installed
