@@ -5,6 +5,7 @@ class people::tylersticka {
   # modules
   include imageoptim
   include imagealpha
+  include licecap
 
   # hello
   notice('Hi, Tyler! Happy designing 😄')
