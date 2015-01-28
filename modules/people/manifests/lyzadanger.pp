@@ -17,14 +17,22 @@ class people::lyzadanger {
   #  - install my dotfiles
   # Inspired by https://github.com/mroth/my-boxen/blob/master/modules/people/manifests/mroth.pp
   #
+  file { 'homeshickdir':
+    path => "${HOME}/.homesick/repos",
+    ensure => directory
+  }
+
   repository { 'homeshick':
     source => 'andsens/homeshick',
-    path   => "${HOME}/.homesick/repos/homeshick"
+    path   => "${HOME}/.homesick/repos/homeshick",
+    require => File['homeshickdir']
   }
-  -> repository { 'lyzadanger-dotfiles':
-    source => 'https://github.com/lyzadanger/dotfiles.git',
-    path   => "${HOME}/.homesick/repos/dotfiles",
-    notify => Exec['link-dotfiles']
+  repository { 'lyzadanger-dotfiles':
+    ensure  => 'origin/HEAD', # https://github.com/boxen/puppet-repository/issues/12
+    source  => 'lyzadanger/dotfiles',
+    path    => "${HOME}/.homesick/repos/dotfiles",
+    require => File['homeshickdir'],
+    notify  => Exec['link-dotfiles']
   }
 
   exec { 'link-dotfiles':
