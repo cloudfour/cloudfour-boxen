@@ -37,6 +37,6 @@ class people::lyzadanger {
 
   exec { 'link-dotfiles':
     command     => "bash -c 'source ${HOME}/.homesick/repos/homeshick/homeshick.sh; homeshick link dotfiles --force'",
-    refreshonly => true
+    #refreshonly => true This is problematic because I tend to make changes in my local
   }
 }
