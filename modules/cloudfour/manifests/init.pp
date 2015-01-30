@@ -11,6 +11,8 @@ class cloudfour {
   include java
   include wget
 
+  include harvest
+  include onepassword
   # everyone uses dropbox
   include dropbox
 
@@ -20,6 +22,7 @@ class cloudfour {
   include onepassword
 
   include harvest
+  include skype
 
   # everyone uses browsers
   # this is just to get 'em installed
@@ -27,11 +30,6 @@ class cloudfour {
   include chrome
   include firefox
 
-
-  # particular
-  include sublime_text
-  include iterm2::stable
-  include atom
 
   # dev
   #include heroku

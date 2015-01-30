@@ -1,3 +1,9 @@
+# Cloud Four Boxen
+
+This repository is based on [`boxen/our-boxen`](https://github.com/boxen/our-boxen) and looks to that as an upstream source. Most of the information in this `README` is correspondingly merged in from that upstream.
+
+If you are looking for help with Cloud Four-specific boxen stuff, [you probably want to look at the wiki](https://github.com/cloudfour/cloudfour-boxen/wiki)! 
+
 # Our Boxen
 
 This is a template Boxen project designed for your organization to fork and
