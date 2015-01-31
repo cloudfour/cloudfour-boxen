@@ -5,6 +5,7 @@ class cloudfour {
   # npm
   nodejs::module { 'grunt for 0.8': module => 'grunt', node_version => 'v0.8' }
   nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
+  nodejs::module { 'grunt-cli for 0.10': module => 'grunt-cli', node_version => 'v0.10' }
   nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
   nodejs::module { 'yeoman for 0.10': module => 'yo', node_version => 'v0.10' }
 
