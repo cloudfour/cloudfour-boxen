@@ -11,6 +11,10 @@ class people::lyzadanger {
     ['mongodb']:
   }
 
+  package {'pandoc':
+    ensure => installed
+  }
+
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles

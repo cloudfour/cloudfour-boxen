@@ -8,4 +8,8 @@ class people::grigs {
     version      => '~> 0.9',
     ruby_version => '*',
   }
+
+  package { 'pandoc':
+    ensure => installed
+  }
 }
