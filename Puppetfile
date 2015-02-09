@@ -73,7 +73,7 @@ github "virtualbox", "1.0.13"
 # github "nvm", "1.0.0"
 
 github "onepassword"
-github "sublime_text"
+github "sublime_text", "1.1.0"
 github "iterm2"
 github "dropbox"
 github "heroku"

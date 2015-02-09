@@ -4,7 +4,7 @@
 # See also: https://github.com/cloudfour/cloudfour-boxen/wiki/Personal-Module-Recipes
 class people::saralohr {
 
-  include cloudfour_potions::sublime_text
+  include sublime_text
   notice("Hi there, Sara!")
 
 }
