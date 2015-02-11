@@ -7,13 +7,15 @@ class people::lyzadanger {
   include cloudfour_potions::atom
   notice("Hi, future Lyza, from past Lyza")
 
-  package {
-    ['mongodb']:
-  }
-
   package {'pandoc':
     ensure => installed
   }
+
+  # Personal hackery stuff follows
+  package {
+    ['mongodb']:
+  }
+  nodejs::module { 'hexo for 0.10': module => 'hexo', node_version => 'v0.10' }
 
   #
   # DOTFILES
