@@ -15,8 +15,7 @@ class people::lyzadanger {
   package {
     ['mongodb']:
   }
-  nodejs::module { 'hexo for 0.10': module => 'hexo', node_version => 'v0.10' }
-
+  nodejs::module { 'browserify for 0.10': module => 'browserify', node_version => 'v0.10' }
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles

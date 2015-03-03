@@ -204,7 +204,7 @@ DEPENDENCIES
   ruby (= 8.3.0)
   skype (>= 0)
   stdlib (= 4.2.1)
-  sublime_text (>= 0)
+  sublime_text (= 1.1.0)
   sudo (= 1.0.0)
   virtualbox (= 1.0.13)
   wget (= 1.0.1)
