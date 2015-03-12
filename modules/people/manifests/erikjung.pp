@@ -1,6 +1,8 @@
 class people::erikjung {
   include teams::dev
   include phantomjs::1_9_0
+  include imageoptim
+  include licecap
 
   package {
     'pandoc': ensure => installed
