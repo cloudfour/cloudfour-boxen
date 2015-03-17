@@ -1,4 +1,5 @@
 class people::grigs {
+  include cloudfour_potions::dotfiles
   include mamppro
   notice('Jason loves sheep')
 
