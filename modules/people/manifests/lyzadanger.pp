@@ -1,4 +1,5 @@
 class people::lyzadanger {
+  include cloudfour_potions::dotfiles
   $HOME = "/Users/${::boxen_user}"
   include teams::dev
   include iterm2::dev

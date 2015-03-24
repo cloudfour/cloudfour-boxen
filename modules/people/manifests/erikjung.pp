@@ -1,6 +1,7 @@
 class people::erikjung {
   include teams::dev
   include phantomjs::1_9_0
+  include cloudfour_potions::dotfiles
   include imageoptim
   include licecap
 
