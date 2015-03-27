@@ -1,38 +1,31 @@
 {
-  "verbose": true,
-
   "exclude": [
     ".git/**",
     "node_modules/**"
   ],
-
-  "always-semicolon": true,
-  "leading-zero": true,
-  "quotes": "double",
-  "remove-empty-rulesets": false,
-  "vendor-prefix-align": false,
-
-  "color-case": "lower",
-  "color-shorthand": true,
-  "element-case": "lower",
-
-  "block-indent": "  ",
-  "tab-size": "  ",
-
-  "space-after-colon": " ",
-  "space-after-combinator": " ",
-  "space-after-opening-brace": "\n",
-  "space-after-selector-delimiter": "\n",
-  "space-before-closing-brace": "\n",
-  "space-before-colon": "",
-  "space-before-combinator": " ",
-  "space-before-opening-brace": " ",
+  "verbose":                         true,
+  "always-semicolon":                true,
+  "leading-zero":                    true,
+  "quotes":                          "double",
+  "remove-empty-rulesets":           false,
+  "vendor-prefix-align":             false,
+  "color-case":                      "lower",
+  "color-shorthand":                 true,
+  "element-case":                    "lower",
+  "block-indent":                    "  ",
+  "tab-size":                        "  ",
+  "space-after-colon":               " ",
+  "space-after-combinator":          " ",
+  "space-after-opening-brace":       "\n",
+  "space-after-selector-delimiter":  "\n",
+  "space-before-closing-brace":      "\n",
+  "space-before-colon":              "",
+  "space-before-combinator":         " ",
+  "space-before-opening-brace":      " ",
   "space-before-selector-delimiter": "",
-  "space-between-declarations": "\n",
-
-  "strip-spaces": true,
-  "eof-newline": true,
-
+  "space-between-declarations":      "\n",
+  "strip-spaces":                    true,
+  "eof-newline":                     true,
   "sort-order": [
     [
       "$variable",
