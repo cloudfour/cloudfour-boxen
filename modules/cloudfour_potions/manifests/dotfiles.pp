@@ -13,4 +13,10 @@ class cloudfour_potions::dotfiles {
   file { "/Users/${::luser}/.jscsrc":
     source => 'puppet:///modules/cloudfour_potions/dotfiles/jscsrc',
   }
+
+  # .jshintrc
+  file { "/Users/${::luser}/.jshintrc":
+    source => 'puppet:///modules/cloudfour_potions/dotfiles/jshintrc',
+  }
+
 }
