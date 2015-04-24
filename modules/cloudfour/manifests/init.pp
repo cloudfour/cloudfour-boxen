@@ -9,6 +9,7 @@ class cloudfour {
   nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
   nodejs::module { 'divshot for 0.10': module => 'divshot-cli', node_version => 'v0.10' }
   nodejs::module { 'jshint for 0.10': module => 'jshint', node_version => 'v0.10' }
+  nodejs::module { 'jscs for 0.10': module => 'jscs', node_version => 'v0.10' }
   #nodejs::module { 'yeoman for 0.10': module => 'yo', node_version => 'v0.10' }
 
   include java

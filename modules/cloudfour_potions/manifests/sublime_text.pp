@@ -1,8 +1,6 @@
 # This is sublime text 3
 class cloudfour_potions::sublime_text {
   include sublime_text
-  nodejs::module { 'jscs for 0.10': module => 'jscs', node_version => 'v0.10' }
-  # jshint is installed via the cloudfour module manifest
 
   sublime_text::package { 'editorconfig':
     source => 'sindresorhus/editorconfig-sublime'
