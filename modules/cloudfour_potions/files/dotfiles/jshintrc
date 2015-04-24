@@ -1,0 +1,13 @@
+{
+    "predef": [
+        "define",
+        "require",
+        "module",
+        "process",
+        "$"
+    ],
+    "globalstrict" : true,
+    "camelcase"    : true,
+    "eqeqeq"       : true,
+    "nonew"        : true
+}
