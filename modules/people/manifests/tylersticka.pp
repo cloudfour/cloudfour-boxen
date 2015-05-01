@@ -9,6 +9,9 @@ class people::tylersticka {
   include imagealpha
   include licecap
 
+  include cloudfour_potions::atom
+  include cloudfour_potions::dotfiles
+  
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
