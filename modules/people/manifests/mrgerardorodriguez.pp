@@ -5,7 +5,7 @@
 class people::mrgerardorodriguez {
 
   include cloudfour_potions::dotfiles
-  include cloudfour_potions::sublime_text
+  include cloudfour_potions::sublime_text2
   include iterm2::dev
   include teams::dev
   
