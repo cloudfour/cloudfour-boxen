@@ -11,7 +11,11 @@ class people::tylersticka {
 
   include cloudfour_potions::atom
   include cloudfour_potions::dotfiles
-  
+
+  package {'pandoc':
+    ensure => installed
+  }
+
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
