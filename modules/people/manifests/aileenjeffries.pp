@@ -1,8 +1,6 @@
 class people::aileenjeffries {
-  $HOME = "Users/${::boxen_user}"
-  
-  include cloudfour_potions::dotfiles
-  
+ # Make sure this is set somewhere before the dotfiles stuff
+  $HOME = "/Users/${::boxen_user}"
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
