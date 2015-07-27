@@ -1,8 +1,9 @@
 class people::nicolemors {
-  $HOME = "/User/${::boxen_user}"
   include cloudfour_potions::dotfiles
   include cloudfour_potions::sublime_text2
   
+  # Make sure this is set somewhere before the dotfiles stuff
+  $HOME = "/Users/${::boxen_user}"
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
