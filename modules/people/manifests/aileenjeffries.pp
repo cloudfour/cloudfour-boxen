@@ -1,4 +1,6 @@
 class people::aileenjeffries {
+  $HOME = "Users/${::boxen_user}"
+  
   include cloudfour_potions::dotfiles
   
   #
