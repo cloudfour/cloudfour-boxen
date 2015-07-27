@@ -1,4 +1,5 @@
 class people::nicolemors {
+  $HOME = "/User/${::boxen_user}"
   include cloudfour_potions::dotfiles
   include cloudfour_potions::sublime_text2
   
