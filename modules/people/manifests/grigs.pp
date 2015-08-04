@@ -17,6 +17,14 @@ class people::grigs {
     ruby_version => '*',
   }
 
+  # RedCloth for jekyll
+  ruby_gem { 'RedCloth':
+    gem          => 'redcloth',
+    version      => '~> 4.2',
+    ruby_version => '*',
+  }
+
+
   package { 'pandoc':
     ensure => installed
   }
