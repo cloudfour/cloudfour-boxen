@@ -20,7 +20,7 @@ class people::grigs {
   # RedCloth for jekyll
   ruby_gem { 'RedCloth':
     gem          => 'redcloth',
-    version      => '~> 4.2',
+    version      => '~> 4.2.9',
     ruby_version => '*',
   }
 
