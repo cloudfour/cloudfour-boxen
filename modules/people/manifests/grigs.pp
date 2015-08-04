@@ -31,6 +31,13 @@ class people::grigs {
     ruby_version => '*',
   }
 
+  # classifier for consoles.maban
+  ruby_gem { 'classifier':
+    gem          => 'classifier',
+    version      => '~> 1.3.3',
+    ruby_version => '*',
+  }
+
 
   package { 'pandoc':
     ensure => installed
