@@ -9,6 +9,13 @@ class people::grigs {
     version      => '~> 0.9',
     ruby_version => '*',
   }
+  
+  # jekyll
+  ruby_gem { 'jekyll':
+    gem          => 'jekyll',
+    version      => '~> 2.5.3',
+    ruby_version => '*',
+  }
 
   package { 'pandoc':
     ensure => installed
