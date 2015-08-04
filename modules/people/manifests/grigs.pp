@@ -24,6 +24,13 @@ class people::grigs {
     ruby_version => '*',
   }
 
+  # bundler for consoles.maban
+  ruby_gem { 'bundler':
+    gem          => 'bundler',
+    version      => '~> 1.10.6',
+    ruby_version => '*',
+  }
+
 
   package { 'pandoc':
     ensure => installed
