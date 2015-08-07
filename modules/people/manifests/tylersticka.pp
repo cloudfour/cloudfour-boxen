@@ -16,6 +16,10 @@ class people::tylersticka {
     ensure => installed
   }
 
+  package {'bash-completion':
+    ensure => installed
+  }
+
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
