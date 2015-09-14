@@ -46,11 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-<<<<<<< HEAD
-    git (2.7.3)
-=======
     git (2.7.9)
->>>>>>> boxen-upstream-local/master
 
 GITHUBTARBALL
   remote: boxen/puppet-go
