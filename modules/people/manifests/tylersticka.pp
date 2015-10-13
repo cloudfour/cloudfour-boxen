@@ -2,7 +2,7 @@ class people::tylersticka {
   $HOME = "/Users/${::boxen_user}"
 
   # npm
-  nodejs::module { 'svgo for 0.10': module => 'svgo', node_version => 'v0.10' }
+  npm_module { 'svgo for 0.10': module => 'svgo', node_version => '0.10' }
 
   # modules
   include imageoptim
