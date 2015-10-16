@@ -2,7 +2,7 @@ class people::erikjung {
   $HOME = "/Users/${::boxen_user}"
 
   include teams::dev
-  include phantomjs::1_9_0
+  # include phantomjs::1_9_0
   include cloudfour_potions::atom
   include cloudfour_potions::dotfiles
   include imageoptim
@@ -18,12 +18,7 @@ class people::erikjung {
     ensure => installed
   }
 
-  phantomjs::global { '1.9.0': }
-
-  nodejs::module { 'divshot for evaluation for 0.10':
-    module       => 'divshot-cli',
-    node_version => 'v0.10'
-  }
+  # phantomjs::global { '1.9.0': }
 
   # Dotfiles
 

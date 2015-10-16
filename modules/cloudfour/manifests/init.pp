@@ -3,11 +3,11 @@ class cloudfour {
   # equally able to run our web projects locally
 
   # npm
-  nodejs::module { 'grunt-cli for 0.10': module => 'grunt-cli', node_version => 'v0.10' }
-  nodejs::module { 'gulp for 0.10': module => 'gulp', node_version => 'v0.10' }
-  nodejs::module { 'divshot for 0.10': module => 'divshot-cli', node_version => 'v0.10' }
-  nodejs::module { 'jshint for 0.10': module => 'jshint', node_version => 'v0.10' }
-  nodejs::module { 'jscs for 0.10': module => 'jscs', node_version => 'v0.10' }
+  npm_module { 'grunt-cli': module => 'grunt-cli', node_version => '0.10' }
+  npm_module { 'gulp': module => 'gulp', node_version => '0.10' }
+  npm_module { 'divshot': module => 'divshot-cli', node_version => '0.10' }
+  npm_module { 'jshint': module => 'jshint', node_version => '0.10' }
+  npm_module { 'jscs': module => 'jscs', node_version => '0.10' }
   #nodejs::module { 'yeoman for 0.10': module => 'yo', node_version => 'v0.10' }
 
   include java
@@ -54,7 +54,7 @@ class cloudfour {
   # Set system global version defaults
   # Config should be set in hiera
   # See https://github.com/cloudfour/cloudfour-boxen/issues/10
-  class { 'nodejs::global': version => 'v0.10' }
+  class { 'nodejs::global': version => '0.10' }
   # See https://github.com/cloudfour/cloudfour-boxen/issues/9
   class { 'ruby::global': version => '2.1.0' }
 
