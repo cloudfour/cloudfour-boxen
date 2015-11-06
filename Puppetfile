@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.2"
+github "boxen", "3.11.0"
 
 # Support for default hiera data in modules
 
@@ -47,49 +47,19 @@ github "go",          "2.1.0"
 github "homebrew",    "1.13.0"
 github "hub",         "1.4.1"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
-# github "nginx",       "1.4.6"
+github "nginx",       "1.6.0"
 github "nodejs",      "5.0.0"
 github "openssl",     "1.0.0"
 github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
-github "ruby",        "8.5.2"
+github "ruby",        "8.5.3"
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# Stuff above here is mostly coming to us from upstream.
-# Add any custom modules below and they will be available
-# for everyone
-
-# Version numbers refer to (exact) tags in the repo
-# for the puppet module
-
-github "java", "1.8.0"
-github "wget", "1.0.1"
-github "virtualbox", "1.0.13"
-# github "nvm", "1.0.0"
-
-github "onepassword"
-github "sublime_text", "1.1.0"
-github "iterm2"
-github "dropbox"
-github "heroku"
-github "harvest"
-github "skype"
-
-github "chrome"
-github "firefox"
-
-github "atom"
-
-github "imageoptim"
-
-# Requirements for future project-specific setups.
-# github "postgresql", "3.0.1"
-# github "elasticsearch", "2.7.2"
 # github "elasticsearch", "2.8.0"
 # github "mysql",         "2.0.1"
 # github "postgresql",  "4.0.1"
