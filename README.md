@@ -1,3 +1,7 @@
+## ARE YOU LOOKING FOR THE WIKI?
+
+Are you looking for [THE WIKI](https://github.com/cloudfour/cloudfour-boxen/wiki)? Lots of Cloud Four-specific info, troubleshooting FAQs and the like.
+
 # Cloud Four Boxen
 
 This repository is based on [`boxen/our-boxen`](https://github.com/boxen/our-boxen) and looks to that as an upstream source. Most of the information in this `README` is correspondingly merged in from that upstream.
