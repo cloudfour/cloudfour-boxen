@@ -56,7 +56,7 @@ node default {
   include dnsmasq
   include git
   include hub
-  # include nginx
+  include nginx
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -64,7 +64,6 @@ node default {
   }
 
   # node versions
-  # nodejs::version { '0.6': }
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
@@ -72,9 +71,8 @@ node default {
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
-  ruby::version { '2.1.0': }
-  ruby::version { '2.1.1': }
-  ruby::version { '2.1.2': }
+  ruby::version { '2.1.7': }
+  ruby::version { '2.2.3': }
 
   # common, useful packages
   package {
@@ -89,6 +87,4 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
-
-  include cloudfour
 }
