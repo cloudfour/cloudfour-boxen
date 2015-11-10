@@ -67,6 +67,9 @@ node default {
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
+  # This differs from upstream, but it's practically 2016, guys
+  nodejs::version { '4.0.0': }
+  class { 'nodejs::global': version => '0.12' }
 
   # default ruby versions
   ruby::version { '1.9.3': }

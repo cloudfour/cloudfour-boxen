@@ -54,7 +54,7 @@ class cloudfour {
   # Set system global version defaults
   # Config should be set in hiera
   # See https://github.com/cloudfour/cloudfour-boxen/issues/10
-  class { 'nodejs::global': version => '0.10' }
+  # class { 'nodejs::global': version => '0.12' }
   # See https://github.com/cloudfour/cloudfour-boxen/issues/9
   class { 'ruby::global': version => '2.1.0' }
 
