@@ -3,11 +3,12 @@ class cloudfour {
   # equally able to run our web projects locally
 
   # npm
-  npm_module { 'grunt-cli': module => 'grunt-cli', node_version => '0.10' }
-  npm_module { 'gulp': module => 'gulp', node_version => '0.10' }
-  npm_module { 'divshot': module => 'divshot-cli', node_version => '0.10' }
-  npm_module { 'jshint': module => 'jshint', node_version => '0.10' }
-  npm_module { 'jscs': module => 'jscs', node_version => '0.10' }
+  class { 'nodejs::global': version => '4.0.0' }
+  # npm_module { 'grunt-cli': module => 'grunt-cli', node_version => '0.10' }
+  # npm_module { 'gulp': module => 'gulp', node_version => '0.10' }
+  # npm_module { 'divshot': module => 'divshot-cli', node_version => '0.10' }
+  # npm_module { 'jshint': module => 'jshint', node_version => '0.10' }
+  # npm_module { 'jscs': module => 'jscs', node_version => '0.10' }
   #nodejs::module { 'yeoman for 0.10': module => 'yo', node_version => 'v0.10' }
 
   include java
