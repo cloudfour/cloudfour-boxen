@@ -32,6 +32,13 @@ class people::lyzadanger {
   #}
 
   package { 'evernote': provider => 'brewcask' }
+
+  # `~Projects` directory for my gitness
+  file { 'projectsdir':
+    path => "${HOME}/Projects",
+    ensure => directory
+  }
+
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
