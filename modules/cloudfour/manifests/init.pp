@@ -9,8 +9,8 @@ class cloudfour {
   npm_module { 'jscs': module => 'jscs', node_version => '4.0.0' }
   npm_module { 'yeoman': module => 'yo', node_version => '4.0.0' }
 
-  include java
-  include wget
+  #include java
+  #include wget
 
   include harvest
   include onepassword
@@ -21,8 +21,6 @@ class cloudfour {
   # we may move away from managing with boxen
   # at some point
   include onepassword
-
-  include harvest
   include skype
 
   # everyone uses browsers
@@ -33,7 +31,6 @@ class cloudfour {
 
 
   # dev
-  #include heroku
   include virtualbox
 
   # Everyone gets Sass
