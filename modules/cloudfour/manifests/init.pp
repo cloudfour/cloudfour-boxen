@@ -30,9 +30,6 @@ class cloudfour {
   include firefox
 
 
-  # dev
-  include virtualbox
-
   # Everyone gets Sass
   ruby_gem { 'SASS for all rubies':
     gem          => 'sass',
