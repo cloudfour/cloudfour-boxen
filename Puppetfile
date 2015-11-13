@@ -40,7 +40,7 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 github "atom",        "1.3.0"
 github "brewcask",    "0.0.6"
-gibhut "chrome",      "1.2.0"
+github "chrome",      "1.2.0"
 github "dnsmasq",     "2.0.1"
 github "dropbox",     "1.4.1"
 github "firefox",     "1.2.3"
