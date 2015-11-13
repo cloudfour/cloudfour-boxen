@@ -20,6 +20,11 @@ class people::lyzadanger {
   #  - install my dotfiles
   # Inspired by https://github.com/mroth/my-boxen/blob/master/modules/people/manifests/mroth.pp
   #
+  file { 'homeshickparentdir':
+    path => "${HOME}/.homesick",
+    ensure => directory
+  }
+
   file { 'homeshickdir':
     path => "${HOME}/.homesick/repos",
     ensure => directory
