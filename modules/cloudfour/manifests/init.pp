@@ -14,8 +14,6 @@ class cloudfour {
 
   include harvest
   include onepassword
-  # everyone uses dropbox
-  include dropbox
 
   # everyone uses onepassword
   # we may move away from managing with boxen
