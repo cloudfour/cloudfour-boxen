@@ -7,15 +7,10 @@ class people::lyzadanger {
   include cloudfour_potions::atom
   notice("Hi, future Lyza, from past Lyza")
 
-  package {'pandoc':
-    ensure => installed
-  }
+  #package {'pandoc':
+  #  ensure => installed
+  #}
 
-  # Personal hackery stuff follows
-  package {
-    ['mongodb']:
-  }
-  npm_module { 'browserify for 0.10': module => 'browserify', node_version => '0.10' }
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
