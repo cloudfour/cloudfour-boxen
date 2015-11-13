@@ -11,6 +11,7 @@ class people::lyzadanger {
   #  ensure => installed
   #}
 
+  package { 'evernote': provider => 'brewcask' }
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
