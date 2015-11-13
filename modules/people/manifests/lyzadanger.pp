@@ -72,4 +72,11 @@ class people::lyzadanger {
     command     => "bash -c 'source ${HOME}/.homesick/repos/homeshick/homeshick.sh; homeshick link dotfiles --force'",
     #refreshonly => true This is problematic because I tend to make changes in my local
   }
+
+  # Inconsolata (fixed-width) font
+  file { "Inconsolata Font":
+    ensure => 'present',
+    path   => "${HOME}/Library/Fonts/Inconsolata.otf",
+    source => 'puppet:///modules/people/Inconsolata.otf'
+  }
 }
