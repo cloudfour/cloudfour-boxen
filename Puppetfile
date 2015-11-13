@@ -69,7 +69,6 @@ github "skype",       "1.1.0"
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sublime_text","1.1.0"
 github "sudo",        "1.0.0"
-github "virtualbox",  "1.0.13"
 github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
