@@ -2,12 +2,30 @@ class people::lyzadanger {
   include cloudfour_potions::dotfiles
   $HOME = "/Users/${::boxen_user}"
   include teams::dev
-  
+
   include fluid
   include iterm2::dev
 
   include cloudfour_potions::atom
   notice("Hi, future Lyza, from past Lyza")
+
+  # OS X defaults
+  include osx::global::disable_autocorrect
+  include osx::dock::autohide
+  include osx::finder::show_all_on_desktop
+  include osx::finder::unhide_library
+  include osx::finder::show_hidden_files
+  include osx::finder::show_all_filename_extensions
+  include osx::safari::enable_developer_mode
+
+  class { 'osx::dock::icon_size':
+    size => 42
+  }
+
+  class { 'osx::dock::magnification':
+    magnification => true,
+    magnification_size => 60
+  }
 
   #package {'pandoc':
   #  ensure => installed
