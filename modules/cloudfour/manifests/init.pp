@@ -47,7 +47,7 @@ class cloudfour {
   # See https://github.com/cloudfour/cloudfour-boxen/issues/10
   # class { 'nodejs::global': version => '0.12' }
   # See https://github.com/cloudfour/cloudfour-boxen/issues/9
-  class { 'ruby::global': version => '2.1.0' }
+  class { 'ruby::global': version => '2.2.3' }
 
   # Symlink to boxen script from Applications dir for
   # those who like to double-click on things
