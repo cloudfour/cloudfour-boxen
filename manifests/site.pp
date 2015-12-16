@@ -67,7 +67,10 @@ node default {
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
   # This differs from upstream, but it's practically 2016, guys
+  # Global is set in cloudfour module
   nodejs::version { '4.0.0': }
+  nodejs::version { '4.2.2': }
+  nodejs::version { '5.2.0': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
