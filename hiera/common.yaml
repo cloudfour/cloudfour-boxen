@@ -17,6 +17,7 @@ ruby::rbenv_plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p647
 
+nodejs::build::ensure: "3c0dce2b91d1e1aca285bef2d52290bc874d5938"
 # Based on what I see , you cannot control global
 # nodejs version from hiera
 # see https://github.com/boxen/puppet-nodejs/issues/28
