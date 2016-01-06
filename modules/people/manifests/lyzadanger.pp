@@ -6,7 +6,7 @@ class people::lyzadanger {
   include fluid
   include iterm2::dev
 
-  include cloudfour_potions::atom
+  #include cloudfour_potions::atom
   notice("Hi, future Lyza, from past Lyza")
 
   # OS X defaults
@@ -27,11 +27,14 @@ class people::lyzadanger {
     magnification_size => 60
   }
 
+  # Trust me, use brewcask instead. Unless you have 3 hours to shed.
   #package {'pandoc':
   #  ensure => installed
   #}
 
   package { 'evernote': provider => 'brewcask' }
+  package { 'atom': provider => 'brewcask' }
+  package { 'pandoc': provider => 'brewcask' }
 
   # `~Projects` directory for my gitness
   file { 'projectsdir':
