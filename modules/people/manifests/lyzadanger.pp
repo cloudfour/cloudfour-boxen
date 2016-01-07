@@ -35,6 +35,7 @@ class people::lyzadanger {
   package { 'evernote': provider => 'brewcask' }
   package { 'atom': provider => 'brewcask' }
   package { 'pandoc': provider => 'brewcask' }
+  package { 'mactex': provider => 'brewcask' }
 
   # `~Projects` directory for my gitness
   file { 'projectsdir':
