@@ -9,6 +9,12 @@ class cloudfour {
   npm_module { 'jscs': module => 'jscs', node_version => '4.0.0' }
   npm_module { 'yeoman': module => 'yo', node_version => '4.0.0' }
 
+  class { 'vagrant': }
+
+  # Install some vagrant plugins
+  vagrant::plugin { 'hostsupdater': }
+  vagrant::plugin { 'triggers': }
+
   #include java
   #include wget
 
