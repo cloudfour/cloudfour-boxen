@@ -7,11 +7,11 @@ class people::tylersticka {
   # modules
   include imageoptim
   include imagealpha
-  include licecap
 
   include cloudfour_potions::dotfiles
 
   package { 'atom': provider => 'brewcask' }
+  package { 'licecap': provider => 'brewcask' }
   package {'pandoc':
     ensure => installed
   }

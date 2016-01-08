@@ -4,9 +4,9 @@ class people::erikjung {
   include teams::dev
   # include phantomjs::1_9_0
   package { 'atom': provider => 'brewcask' }
+  package { 'licecap': provider => 'brewcask' }
   include cloudfour_potions::dotfiles
   include imageoptim
-  include licecap
 
   # Package stuff
 
