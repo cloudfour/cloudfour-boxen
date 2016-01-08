@@ -2,8 +2,6 @@ class people::lyzadanger {
   include cloudfour_potions::dotfiles
   $HOME = "/Users/${::boxen_user}"
   include teams::dev
-
-  include fluid
   include iterm2::dev
 
   #include cloudfour_potions::atom
@@ -31,9 +29,9 @@ class people::lyzadanger {
   #package {'pandoc':
   #  ensure => installed
   #}
-
-  package { 'evernote': provider => 'brewcask' }
   package { 'atom': provider => 'brewcask' }
+  package { 'evernote': provider => 'brewcask' }
+  package { 'fluid': provider => 'brewcask' }
   package { 'pandoc': provider => 'brewcask' }
   package { 'mactex': provider => 'brewcask' }
 

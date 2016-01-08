@@ -41,7 +41,6 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 github "atom",        "1.3.0" # brewcask me
 github "brewcask",    "0.0.6"
 github "dnsmasq",     "2.0.1"
-github "fluid",       "1.0.2" # brewcask me
 github "foreman",     "1.2.0"
 github "gcc",         "3.0.2"
 github "git",         "2.7.92"
