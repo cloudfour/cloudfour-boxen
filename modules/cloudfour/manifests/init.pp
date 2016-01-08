@@ -17,6 +17,7 @@ class cloudfour {
 
   #include java
   #include wget
+  package { 'firefox': provider => 'brewcask' }
   package { 'google-chrome': provider => 'brewcask' }
   package { 'harvest': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask'}
@@ -25,11 +26,6 @@ class cloudfour {
   # we may move away from managing with boxen
   # at some point
   include onepassword
-
-  # everyone uses browsers
-  # this is just to get 'em installed
-  # don't care if boxen manages these later
-  include firefox
 
 
   # Everyone gets Sass

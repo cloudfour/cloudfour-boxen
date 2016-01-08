@@ -19,11 +19,6 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.2.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-fluid
   specs:
     fluid (1.0.2)
@@ -163,7 +158,6 @@ DEPENDENCIES
   boxen (= 3.11.0)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
-  firefox (= 1.2.3)
   fluid (= 1.0.2)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
