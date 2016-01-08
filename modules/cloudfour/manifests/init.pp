@@ -17,6 +17,7 @@ class cloudfour {
 
   #include java
   #include wget
+  package { 'dropbox': provider => 'brewcask' }
   package { 'firefox': provider => 'brewcask' }
   package { 'google-chrome': provider => 'brewcask' }
   package { 'harvest': provider => 'brewcask' }
