@@ -4,12 +4,11 @@ class people::mrgerardorodriguez {
 
   # modules
   include cloudfour_potions::dotfiles
-  include cloudfour_potions::sublime_text2
-  include cloudfour_potions::atom
-  include iterm2::dev
   include teams::dev
-  include licecap
 
+  package { 'atom': provider => 'brewcask' }
+  package { 'iterm2': provider => 'brewcask' }
+  package { 'licecap': provider => 'brewcask' }
   #
   # DOTFILES
   #  - install and use homeshick for managing dotfiles

@@ -3,10 +3,10 @@ class people::erikjung {
 
   include teams::dev
   # include phantomjs::1_9_0
-  include cloudfour_potions::atom
+  package { 'atom': provider => 'brewcask' }
+  package { 'licecap': provider => 'brewcask' }
   include cloudfour_potions::dotfiles
   include imageoptim
-  include licecap
 
   # Package stuff
 
@@ -18,7 +18,10 @@ class people::erikjung {
     ensure => installed
   }
 
-  # phantomjs::global { '1.9.0': }
+  # Note to Erik: if you want to install phantom later, you might consider
+  # uncommenting the following:
+  # package { 'phantom': provider => 'brewcask' }
+
 
   # Dotfiles
 

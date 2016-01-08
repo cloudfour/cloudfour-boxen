@@ -4,10 +4,9 @@
 # See also: https://github.com/cloudfour/cloudfour-boxen/wiki/Personal-Module-Recipes
 class people::saralohr {
   $HOME = "/Users/${::boxen_user}"
-  
+
   include cloudfour_potions::dotfiles
-  include sublime_text
-  
+
   # DOTFILES
   #  - install and use homeshick for managing dotfiles
   #  - install my dotfiles
@@ -35,7 +34,7 @@ class people::saralohr {
     command     => "bash -c 'source ${HOME}/.homesick/repos/homeshick/homeshick.sh; homeshick link dotfiles --force'",
     #refreshonly => true
   }
-  
+
   notice("Hi there, Sara!")
 
 }
