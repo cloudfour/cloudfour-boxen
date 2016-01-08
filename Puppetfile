@@ -45,11 +45,10 @@ github "gcc",         "3.0.2"
 github "git",         "2.7.92"
 github "go",          "2.1.0"
 github "homebrew",    "1.13.0"
-github "heroku",      "2.0.0" # brew me?
+github "heroku",      "2.0.0"
 github "hub",         "1.4.1"
 github "imageoptim",  "0.0.2"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "iterm2",      "1.2.5" # brewcask me
 github "licecap",     "1.0.1"
 github "nginx",       "1.6.0"
 github "nodejs",      "5.0.5"

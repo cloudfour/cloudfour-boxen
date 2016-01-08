@@ -2,7 +2,6 @@ class people::lyzadanger {
   include cloudfour_potions::dotfiles
   $HOME = "/Users/${::boxen_user}"
   include teams::dev
-  include iterm2::dev
 
   notice("Hi, future Lyza, from past Lyza")
 
@@ -31,6 +30,7 @@ class people::lyzadanger {
   package { 'atom': provider => 'brewcask' }
   package { 'evernote': provider => 'brewcask' }
   package { 'fluid': provider => 'brewcask' }
+  package { 'iterm2': provider => 'brewcask' }
   package { 'pandoc': provider => 'brewcask' }
   package { 'mactex': provider => 'brewcask' }
 
