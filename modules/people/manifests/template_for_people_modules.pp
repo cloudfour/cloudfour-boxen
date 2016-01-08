@@ -12,6 +12,5 @@ class people::template_for_people_modules {
   #
   # include teams::dev
   #
-  # include mamppro
 
 }
