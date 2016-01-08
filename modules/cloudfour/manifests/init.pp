@@ -17,9 +17,7 @@ class cloudfour {
 
   #include java
   #include wget
-
-  include harvest
-  include onepassword
+  package { 'harvest': provider => 'brewcask' }
 
   # everyone uses onepassword
   # we may move away from managing with boxen

@@ -38,23 +38,22 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "atom",        "1.3.0"
+github "atom",        "1.3.0" # brewcask me
 github "brewcask",    "0.0.6"
-github "chrome",      "1.2.0"
+github "chrome",      "1.2.0" # brewcask me
 github "dnsmasq",     "2.0.1"
-github "firefox",     "1.2.3"
-github "fluid",       "1.0.2"
+github "firefox",     "1.2.3" # brewcask me
+github "fluid",       "1.0.2" # brewcask me
 github "foreman",     "1.2.0"
 github "gcc",         "3.0.2"
 github "git",         "2.7.92"
 github "go",          "2.1.0"
-github "harvest",     "1.0.2"
 github "homebrew",    "1.13.0"
-github "heroku",      "2.0.0"
+github "heroku",      "2.0.0" # brew me?
 github "hub",         "1.4.1"
 github "imageoptim",  "0.0.2"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "iterm2",      "1.2.5"
+github "iterm2",      "1.2.5" # brewcask me
 github "licecap",     "1.0.1"
 github "nginx",       "1.6.0"
 github "nodejs",      "5.0.5"
@@ -65,9 +64,9 @@ github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
 github "ruby",        "8.5.3"
-github "skype",       "1.1.0"
+github "skype",       "1.1.0" # brewcask me
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
-github "sublime_text","1.1.0"
+github "sublime_text","1.1.0" # brewcask me?
 github "sudo",        "1.0.0"
 github "vagrant",     "3.3.4"
 github "xquartz",     "1.2.1"
