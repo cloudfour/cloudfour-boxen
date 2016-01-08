@@ -18,7 +18,10 @@ class people::erikjung {
     ensure => installed
   }
 
-  # phantomjs::global { '1.9.0': }
+  # Note to Erik: if you want to install phantom later, you might consider
+  # uncommenting the following:
+  # package { 'phantom': provider => 'brewcask' }
+
 
   # Dotfiles
 
