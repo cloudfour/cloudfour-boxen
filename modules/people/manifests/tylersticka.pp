@@ -9,9 +9,9 @@ class people::tylersticka {
   include imagealpha
   include licecap
 
-  include cloudfour_potions::atom
   include cloudfour_potions::dotfiles
 
+  package { 'atom': provider => 'brewcask' }
   package {'pandoc':
     ensure => installed
   }

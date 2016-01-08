@@ -10,7 +10,7 @@ class people::template_for_people_modules {
   # include iterm2::stable
 
   ## Uncomment for our own "potions"
-  # include cloudfour_potions::atom
+  # package { 'atom': provider => 'brewcask' }
   # include cloudfour_potions::sublime_text
   # include cloudfour_potions::sublime_text2
 
