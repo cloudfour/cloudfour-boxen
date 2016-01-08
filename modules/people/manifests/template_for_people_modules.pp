@@ -11,8 +11,6 @@ class people::template_for_people_modules {
 
   ## Uncomment for our own "potions"
   # package { 'atom': provider => 'brewcask' }
-  # include cloudfour_potions::sublime_text
-  # include cloudfour_potions::sublime_text2
 
   ## Uncomment for our own modules
   #

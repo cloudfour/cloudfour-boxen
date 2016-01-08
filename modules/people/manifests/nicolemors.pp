@@ -1,7 +1,6 @@
 class people::nicolemors {
   include cloudfour_potions::dotfiles
-  include cloudfour_potions::sublime_text2
-  
+
   # Make sure this is set somewhere before the dotfiles stuff
   $HOME = "/Users/${::boxen_user}"
   #
@@ -34,6 +33,6 @@ class people::nicolemors {
   }
 
   # hello
-  
+
   notice('Hi, Nicole! Here comes some software!')
 }
