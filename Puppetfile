@@ -64,7 +64,6 @@ github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
 github "ruby",        "8.5.3"
-github "skype",       "1.1.0" # brewcask me
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sublime_text","1.1.0" # brewcask me?
 github "sudo",        "1.0.0"

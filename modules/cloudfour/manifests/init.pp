@@ -18,12 +18,12 @@ class cloudfour {
   #include java
   #include wget
   package { 'harvest': provider => 'brewcask' }
+  package { 'skype': provider => 'brewcask'}
 
   # everyone uses onepassword
   # we may move away from managing with boxen
   # at some point
   include onepassword
-  include skype
 
   # everyone uses browsers
   # this is just to get 'em installed
