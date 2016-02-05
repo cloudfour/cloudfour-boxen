@@ -1,6 +1,6 @@
 class people::grigs {
   include cloudfour_potions::dotfiles
-  include mamppro
+  #include mamppro
   notice('Jason loves sheep')
 
   # Twurl
@@ -39,7 +39,9 @@ class people::grigs {
   }
 
 
-  package { 'pandoc':
-    ensure => installed
-  }
+  #package { 'pandoc':
+  #  ensure => installed
+  #}
+  
+  package { 'pandoc': provider => 'brewcask' }
 }
